@@ -91,7 +91,7 @@ color: #f2a223;}
 #main { border-bottom:0.1vh dashed #413e3e; }
 #content {  }
 
-.box { width:980px; border-bottom:1px dashed #413e3e; padding-bottom:21px; border: 10px solid red; align-items: center;}
+.box { width:980px; border-bottom:1px dashed #413e3e; padding-bottom:21px; align-items: center;}
 
 .box .head { width:980px; padding-top:14px; padding-bottom:11px; }
 .box .head h2 { float:left; display:inline; }
@@ -112,11 +112,11 @@ color: #f2a223;}
 .rating .stars-in { width:48px; display:inline; background:url('images/stars.gif') no-repeat 0 bottom; position:absolute; height:11px; font-size: 0; line-height: 0; text-indent: -4000px;}
 .comments { background:url('images/comments.gif') no-repeat 0 center; padding-left:12px; float:right; font-size: 12px;}
 
-#news { width:460px; float:left;padding-top: 40px; padding-bottom: 40px;border: 10px solid red;}
+#news { width:460px; float:left;padding-top: 40px; padding-bottom: 40px;}
 #news .head { width:460px; padding-top:11px; padding-bottom:14px;  }
 #news h3, #coming h3 { float:left;  }
 
-#coming { width:490px; float:left; padding-left:4px;padding-top: 40px; padding-bottom: 40px;border: 10px solid red;}
+#coming { width:490px; float:left; padding-left:4px;padding-top: 40px; padding-bottom: 40px;}
 #coming .head { width:490px; padding-top:11px; padding-bottom:14px;  }
 #coming .head strong { color:#ff361a; }
 #coming .content { min-height:130px; height: auto !important; height:130px; padding-bottom:20px; }
