@@ -64,7 +64,7 @@ font-size: 0.80em;
 #navigation ul li a.active,
 #navigation ul li a:hover { color:#d91d2a; }
 
-.social {height: 5%; width:90px; padding-left: 6px; padding-top:10px; padding-bottom: 10%; margin-left: 50%; margin-top: 5%;margin-bottom: 2%;}
+.social {height: 5%; width:90px; padding-left: 6px; padding-top:10px; padding-bottom: 10%; margin-left: 80%; margin-top: 5%;margin-bottom: 2%;}
 .social span { float:left; display:inline; font-size:0.625em; color:#9f9f9f; line-height:16px; padding-right:5px; }
 .social ul { list-style:none; }
 .social ul li { float:left; display:inline; width:16px; padding-right:2px;  }
@@ -78,7 +78,7 @@ font-size: 0.80em;
 .subidas h1 {font-size: 2em;
 color: #f2a223;}
 
-#sub-navigation {margin-top: 10%; float:right; clear:right; padding-top:1px; border-bottom:0.1vh dashed #666; margin-bottom: 1%;width: 450px;}
+#sub-navigation {margin-top: 10%; float:right; clear:right; padding-top:1px; border-bottom:0.1vh dashed #666; margin-bottom: 1%;width: 450px; padding-left: 5%;}
 #sub-navigation ul li { float:left; display:inline; padding-left:20px; margin-right: 1%; margin-top: 1%;}
 #sub-navigation ul li a { font-size:0.857em; font-weight:bold; color:#fff; line-height:2.62vh; text-decoration:none; }
 #sub-navigation ul li a:hover { text-decoration:underline; }
@@ -91,17 +91,18 @@ color: #f2a223;}
 #main { border-bottom:0.1vh dashed #413e3e; }
 #content {  }
 
-.box { width:980px; border-bottom:1px dashed #413e3e; padding-bottom:21px; }
+.box { width:980px; border-bottom:1px dashed #413e3e; padding-bottom:21px; border: 10px solid red; align-items: center;}
 
 .box .head { width:980px; padding-top:14px; padding-bottom:11px; }
 .box .head h2 { float:left; display:inline; }
+
 
 .box .movie { width:161px; float:left; padding-right:12px; }
 .movie-image { float:left; width:152px; height:214px; position:relative; }
 .movie-image img { width:152px; height:214px; }
 .movie-image a { float: left; display: inline; width:152px; height:214px; position: relative; z-index: 2; }
 .play { position: absolute; top: 0; left: 0; width:152px; height:214px; background: url('images/image-hover.png'); display:block; z-index: 5; cursor:pointer; display:none; }
-.movie span.name { font-weight:bold; color:#fff; font-size:14px; text-align:center; padding-top:160px; display:block; }
+.movie span.name { font-weight:bold; color:#fff; font-size:15px; text-align:center; padding-top:160px; display:block; }
 
 .box .last { padding:0; }
 
@@ -111,11 +112,11 @@ color: #f2a223;}
 .rating .stars-in { width:48px; display:inline; background:url('images/stars.gif') no-repeat 0 bottom; position:absolute; height:11px; font-size: 0; line-height: 0; text-indent: -4000px;}
 .comments { background:url('images/comments.gif') no-repeat 0 center; padding-left:12px; float:right; font-size: 12px;}
 
-#news { width:460px; float:left;padding-top: 40px; padding-bottom: 40px;}
+#news { width:460px; float:left;padding-top: 40px; padding-bottom: 40px;border: 10px solid red;}
 #news .head { width:460px; padding-top:11px; padding-bottom:14px;  }
 #news h3, #coming h3 { float:left;  }
 
-#coming { width:490px; float:left; padding-left:4px;padding-top: 40px; padding-bottom: 40px;}
+#coming { width:490px; float:left; padding-left:4px;padding-top: 40px; padding-bottom: 40px;border: 10px solid red;}
 #coming .head { width:490px; padding-top:11px; padding-bottom:14px;  }
 #coming .head strong { color:#ff361a; }
 #coming .content { min-height:130px; height: auto !important; height:130px; padding-bottom:20px; }
@@ -133,3 +134,4 @@ color: #f2a223;}
 #footer a:hover { color:#e44400; text-decoration:none; }
 
 #footer a:hover.designby { color:#9c9c9c; text-decoration:none; }
+
